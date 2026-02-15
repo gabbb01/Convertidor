@@ -17,7 +17,13 @@ namespace EjercicioGit
         public void ConversionCm()
         {
             double centimetros = Metros * 100;
-            Console.WriteLine($"Total en centimetros: {centimetros}");
+            Console.WriteLine($"Total en centimetros: {centimetros} cm");
+        }
+
+        public void ConversionKm()
+        {
+            double km = Metros / 1000;
+            Console.WriteLine($"Total en kilometros: {km} km");
         }
     }
 }
