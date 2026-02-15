@@ -19,6 +19,12 @@ namespace EjercicioGit
             Console.WriteLine($"Cantidad de kg {ValorMasaKg}");
             Console.WriteLine($"Conversion a Gramos: {valor} g");
         }
+
+        public void ConversionLibras()
+        {
+            double libras = ValorMasaKg * 2.205;
+            Console.WriteLine($"Conversion a Libras: {libras} lb");
+        }
     }
 
 }
