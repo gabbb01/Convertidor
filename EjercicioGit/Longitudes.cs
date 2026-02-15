@@ -17,6 +17,7 @@ namespace EjercicioGit
         public void ConversionCm()
         {
             double centimetros = Metros * 100;
+            Console.WriteLine($"Cantidad de metros {Metros}");
             Console.WriteLine($"Total en centimetros: {centimetros} cm");
         }
 

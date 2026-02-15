@@ -16,9 +16,9 @@ namespace EjercicioGit
         public void ConversionGramos()
         {
             double valor = ValorMasaKg / 1000;
+            Console.WriteLine($"Cantidad de kg {ValorMasaKg}");
             Console.WriteLine($"Conversion a Gramos: {valor} g");
         }
     }
-
 
 }
